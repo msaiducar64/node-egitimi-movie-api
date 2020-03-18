@@ -8,7 +8,7 @@ const User = require('../models/User')
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'Merhaba' });
 });
 router.post('/register', function(req, res, next) {
   const {username,password} = req.body
